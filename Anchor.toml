@@ -1,0 +1,15 @@
+[features]
+seeds = false
+[programs.localnet]
+user = "joS6yzC1bz5VRXg6wxqRmMDJkGnXWXF6Kw4yehZeVo6"
+document = "HmKR4hznDDJ4TtHztNry5FGjcXCGL2AqqRAtgFNjVDkY"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/d4fttasiii/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
